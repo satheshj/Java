@@ -1,4 +1,4 @@
-package FullStack.Arrays;
+package LearningJava.Arrays;
 
 import java.util.Arrays;
 

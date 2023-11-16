@@ -1,6 +1,6 @@
 package LearningJava.OOPs.Interface;
 
-interface BaseA{ //interface will only have abstract methods, method overriding not possible
+interface BaseA{ //interface will only have abstract methods, method overriding not possible, helps to achieve multiple 
 	void display();
 }
 interface BaseB{
