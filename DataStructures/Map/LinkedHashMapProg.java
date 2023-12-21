@@ -17,7 +17,7 @@ public class LinkedHashMapProg {
 		for(Map.Entry<Integer, String> entry : linkHM.entrySet()) {
 			System.out.println(entry.getKey() + ":"+entry.getValue());
 		}
-		
+		System.out.println(linkHM.values());
 		
 		
 	}

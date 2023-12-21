@@ -5,6 +5,8 @@ interface BaseA{ //interface will only have abstract methods, method overriding 
 }
 interface BaseB{
 	void display2();
+	abstract void disp();
+	int a = 5;
 }
 public class InterfaceProg implements BaseA,BaseB {
 	public static void main(String args[]) {
@@ -24,6 +26,13 @@ public class InterfaceProg implements BaseA,BaseB {
 	public void display() {
 		// TODO Auto-generated method stub
 		System.out.println("Bellingol Bellingol  el eu");
+		
+	}
+
+	@Override
+	public void disp() {
+		// TODO Auto-generated method stub
+		System.out.println("Jude 5");
 		
 	}
 	

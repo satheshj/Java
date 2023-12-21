@@ -8,7 +8,7 @@ class Parent{
 class Child extends Parent{
 	void display() {
 		super.display(); 
-		System.out.println("Hello World");
+		
 	}
 }
 public class MethOverridingPRogram {

@@ -10,18 +10,24 @@ public class SortingArraysProg {
 		arr.add(5);
 		arr.add(7);
 		ArrayList<Integer> sortarr = new ArrayList<>();
-
+		//sorting in descending
 		int max = 0;
-		for(int k = 0 ; k < 3; k++) {
+		int arrlength = arr.size();
+		for(int k = 0 ; k < arrlength; k++) {
 			for(int i : arr) {
 				if(max < i) {
 					max = i;
 				}
 			}
-			arr.remove(max);
+			int j = arr.indexOf(max);
+			
+			arr.remove(j);
 			sortarr.add(max);
+			max = 0;
 		}
 		System.out.println(sortarr);
+		
+		
 
 	}
 }

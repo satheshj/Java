@@ -2,6 +2,7 @@ package LearningJava.OOPs.Abstraction;
 abstract class Atm{
 	//abstract class should have atleast one abstract method
 	abstract void cash();
+	
 	void pinChange() {
 		System.out.println("Change of pin");
 	}
